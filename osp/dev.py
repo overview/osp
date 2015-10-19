@@ -1,6 +1,6 @@
 
 
-from osp.citations.hlom.ranking import Ranking
+from osp.hlom.ranking import Ranking
 
 
 def print_ranks(result):

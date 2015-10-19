@@ -15,13 +15,13 @@ from osp.dates.models.semester import Document_Date_Semester
 from osp.dates.models.file_metadata import Document_Date_File_Metadata
 from osp.institutions.models.institution import Institution
 from osp.locations.models.doc_inst import Document_Institution
-from osp.citations.hlom.models.record import HLOM_Record
-from osp.citations.hlom.models.citation import HLOM_Citation
+from osp.hlom.models.record import HLOM_Record
+from osp.hlom.models.citation import HLOM_Citation
 
 # Helpers:
 from playhouse.test_utils import test_database
 from osp.test.corpus.mock_osp import MockOSP
-from osp.test.citations.hlom.mock_hlom import MockHLOM
+from osp.test.hlom.mock_hlom import MockHLOM
 
 
 @pytest.fixture(scope='session', autouse=True)
